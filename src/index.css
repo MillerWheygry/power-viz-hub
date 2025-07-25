@@ -115,3 +115,9 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .animation-delay-300 {
+    animation-delay: 0.3s;
+  }
+}
